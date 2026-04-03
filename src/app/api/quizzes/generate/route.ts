@@ -68,7 +68,7 @@ export async function POST(request: NextRequest) {
                         questionText: q.questionText,
                         questionType: q.questionType,
                         difficulty: q.difficulty,
-                        options: q.options ? JSON.stringify(q.options) : null,
+                        options: q.options || undefined,
                         correctAnswer: q.correctAnswer,
                         explanation: q.explanation,
                         order: index + 1,

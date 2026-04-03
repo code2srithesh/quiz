@@ -18,7 +18,7 @@ async function main() {
     const user = await prisma.user.create({
         data: {
             clerkId: 'user_demo_123',
-            email: 'demo@quizforge.ai',
+            email: 'demo@example.com',
             name: 'Demo User',
             settings: {
                 create: {

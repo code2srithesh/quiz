@@ -30,7 +30,7 @@ export default function DashboardLayout({
                 <div className="h-16 flex items-center justify-between px-4 border-b border-glass-lighter">
                     {sidebarOpen && (
                         <Link href="/dashboard" className="text-xl font-bold text-primary">
-                            QuizForge
+                            Quiz Generator
                         </Link>
                     )}
                     <button
@@ -62,7 +62,7 @@ export default function DashboardLayout({
             <div className={`transition-all duration-300 ${sidebarOpen ? 'ml-64' : 'ml-20'}`}>
                 {/* Top bar */}
                 <div className="h-16 border-b border-glass-lighter bg-dark-surface/50 backdrop-blur flex items-center justify-between px-6">
-                    <h1 className="text-2xl font-bold text-white">QuizForge AI</h1>
+                    <h1 className="text-2xl font-bold text-white">PDF Quiz Generator</h1>
                     <UserButton afterSignOutUrl="/" />
                 </div>
 

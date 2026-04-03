@@ -4,11 +4,11 @@ services:
   # PostgreSQL Database
   postgres:
     image: postgres:15-alpine
-    container_name: quizforge-db
+    container_name: quiz-gen-db
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: quizforge_ai_dev
+      POSTGRES_DB: quiz_generator_dev
     ports:
       - "5432:5432"
     volumes:
@@ -22,7 +22,7 @@ services:
   # Adminer (Database GUI - optional)
   adminer:
     image: adminer:latest
-    container_name: quizforge-adminer
+    container_name: quiz-gen-adminer
     ports:
       - "8080:8080"
     depends_on:

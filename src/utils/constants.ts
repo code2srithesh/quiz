@@ -1,6 +1,6 @@
 // Application constants
 
-export const APP_NAME = 'QuizForge AI';
+export const APP_NAME = 'PDF Quiz Generator';
 export const APP_DESCRIPTION = 'Transform PDFs into intelligent quizzes with AI';
 
 // Branding

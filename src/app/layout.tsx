@@ -3,7 +3,7 @@ import { ClerkProvider } from '@clerk/nextjs';
 import './globals.css';
 
 export const metadata: Metadata = {
-    title: 'QuizForge AI - PDF to Quiz',
+    title: 'PDF Quiz Generator - Create Quizzes from PDFs',
     description: 'Transform your PDFs into intelligent quizzes with AI',
     viewport: 'width=device-width, initial-scale=1',
     keywords: ['quiz', 'PDF', 'AI', 'learning', 'educational'],

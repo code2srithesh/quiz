@@ -1,4 +1,4 @@
-# QuizForge AI - Architecture Documentation
+# PDF Quiz Generator - Architecture Documentation
 
 ## 🏗️ System Architecture
 

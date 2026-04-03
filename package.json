@@ -1,7 +1,7 @@
 {
-    "name": "quizforge-ai",
+    "name": "pdf-quiz-generator",
     "version": "1.0.0",
-    "description": "Premium AI-powered PDF to Quiz generation platform",
+    "description": "AI-powered PDF to Quiz generation application",
     "private": true,
     "scripts": {
         "dev": "next dev",

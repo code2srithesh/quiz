@@ -31,7 +31,7 @@ export default function Home() {
             <header className="fixed top-0 left-0 right-0 z-40 bg-dark-bg/80 backdrop-blur-md border-b border-glass-lighter">
                 <nav className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
                     <div className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                        QuizForge
+                        Quiz Generator
                     </div>
                     <div className="flex gap-4">
                         <a
@@ -58,7 +58,7 @@ export default function Home() {
 
             <footer className="border-t border-glass-lighter py-8 px-4 mt-20">
                 <div className="max-w-6xl mx-auto text-center text-gray-500">
-                    <p>&copy; 2024 QuizForge AI. All rights reserved.</p>
+                    <p>&copy; 2024 PDF Quiz Generator. All rights reserved.</p>
                 </div>
             </footer>
         </div>

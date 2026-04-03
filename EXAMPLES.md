@@ -1,6 +1,6 @@
-# QuizForge AI - API & Integration Examples
+# PDF Quiz Generator - API & Integration Examples
 
-Real-world examples for integrating with QuizForge AI.
+Real-world examples for integrating with the PDF Quiz Generator.
 
 ## 📚 Table of Contents
 1. Authentication Examples

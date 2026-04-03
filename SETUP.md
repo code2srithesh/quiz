@@ -1,6 +1,6 @@
-# QuizForge AI - Complete Setup Guide
+# PDF Quiz Generator - Complete Setup Guide
 
-This guide will walk you through setting up QuizForge AI from scratch.
+This guide will walk you through setting up the PDF Quiz Generator application from scratch.
 
 ## 📋 Prerequisites
 
@@ -40,7 +40,7 @@ You'll need to obtain these before starting:
 ```bash
 brew install postgresql@15
 brew services start postgresql@15
-createdb quizforge_ai_dev
+createdb quiz_generator_dev
 ```
 
 #### On Windows:
@@ -50,7 +50,7 @@ createdb quizforge_ai_dev
 4. Create database:
 ```bash
 psql -U postgres
-CREATE DATABASE quizforge_ai_dev;
+CREATE DATABASE quiz_generator_dev;
 \q
 ```
 
@@ -58,7 +58,7 @@ CREATE DATABASE quizforge_ai_dev;
 ```bash
 sudo apt update
 sudo apt install postgresql postgresql-contrib
-sudo -u postgres createdb quizforge_ai_dev
+sudo -u postgres createdb quiz_generator_dev
 ```
 
 ### Option B: Docker (Easiest)
@@ -76,7 +76,7 @@ Access Adminer GUI at `http://localhost:8080`
 - Server: postgres
 - Username: postgres
 - Password: postgres
-- Database: quizforge_ai_dev
+- Database: quiz_generator_dev
 
 ## 🚀 Installation Steps
 
@@ -108,7 +108,7 @@ cp .env.example .env.local
 
 ```env
 # Database Connection
-DATABASE_URL="postgresql://postgres:postgres@localhost:5432/quizforge_ai_dev"
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/quiz_generator_dev"
 
 # Clerk Authentication (from Step 1)
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_test_your_key_here"
@@ -155,7 +155,7 @@ npm run dev
 
 You should see:
 ```
-> quizforge-ai@1.0.0 dev
+> pdf-quiz-generator@1.0.0 dev
 > next dev
 
   ▲ Next.js 14.1.0
@@ -259,7 +259,7 @@ psql -U postgres
 2. Check DATABASE_URL in .env.local
 3. Ensure database exists:
 ```bash
-createdb quizforge_ai_dev
+creatdb quiz_generator_dev
 ```
 
 ### Issue: "Clerk authentication not working"
@@ -338,13 +338,13 @@ createdb quizforge_ai_dev
 
 ```bash
 # Build image
-docker build -t quizforge-ai .
+docker build -t pdf-quiz-generator .
 
 # Run container
 docker run -p 3000:3000 \
   -e DATABASE_URL="..." \
   -e OPENAI_API_KEY="..." \
-  quizforge-ai
+  pdf-quiz-generator
 ```
 
 ### Deploy to Railway/Render
@@ -366,7 +366,7 @@ docker run -p 3000:3000 \
 
 - **Issues**: Create GitHub issue with details
 - **Discussions**: Use GitHub discussions
-- **Email**: support@quizforge.ai
+- **Email**: support@example.com
 - **Community**: Join our Discord
 
 ## ✅ Verification Checklist
@@ -388,6 +388,6 @@ After setup, verify:
 
 ## 🎉 You're All Set!
 
-Congratulations! QuizForge AI is now running on your system.
+Congratulations! Your PDF Quiz Generator is now running on your system.
 
 Start building and customizing! 🚀

@@ -1,9 +1,8 @@
-# QuizForge AI - Premium AI-Powered PDF to Quiz Platform
+# PDF Quiz Generator - AI-Powered Interactive Quiz Creation
 
-A futuristic, production-quality SaaS application that transforms uploaded PDF documents into intelligent, adaptive quizzes using advanced AI. Built with modern technologies for a premium user experience.
+Transform any PDF document into engaging, interactive quizzes using AI. Built with modern technologies for both learning and teaching.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-success)
 
 ## 🎯 Features
@@ -62,7 +61,7 @@ A futuristic, production-quality SaaS application that transforms uploaded PDF d
 ## 📋 Project Structure
 
 ```
-quizforge-ai/
+pdf-quiz-generator/
 ├── src/
 │   ├── app/
 │   │   ├── (auth)/
@@ -130,7 +129,7 @@ quizforge-ai/
 ### 1. Clone & Install
 
 ```bash
-cd quizforge-ai
+cd pdf-quiz-generator
 npm install
 ```
 
@@ -140,7 +139,7 @@ Create `.env.local` with required variables:
 
 ```env
 # Database
-DATABASE_URL="postgresql://user:password@localhost:5432/quizforge_ai_dev"
+DATABASE_URL="postgresql://user:password@localhost:5432/quiz_generator_dev"
 
 # Clerk Auth
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_test_..."
@@ -303,7 +302,7 @@ vercel
 
 #### Option 2: Docker + Cloud Run
 ```bash
-docker build -t quizforge-ai .
+docker build -t pdf-quiz-generator .
 ```
 
 #### Option 3: Railway/Render
@@ -391,9 +390,9 @@ npm test
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## 📄 License
+## 📄 License & Usage
 
-This project is licensed under the MIT License - see LICENSE file for details.
+This is an open-source project. You are free to use, modify, and distribute this project as per your needs. Please ensure you comply with the licenses of the dependencies used.
 
 ## 🙏 Acknowledgments
 
@@ -406,15 +405,13 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ## 📞 Support
 
-For support, email support@quizforge.ai or open an issue on GitHub.
+For support, open an issue on GitHub or check the documentation files included in the project.
 
-## 🌐 Links
+## 🌐 Project Resources
 
-- **Website**: [quizforge.ai](https://quizforge.ai)
-- **GitHub**: [github.com/quizforge/quizforge-ai](https://github.com/quizforge/quizforge-ai)
-- **Documentation**: [docs.quizforge.ai](https://docs.quizforge.ai)
-- **Discord Community**: [discord.gg/quizforge](https://discord.gg/quizforge)
+- **GitHub**: [github.com/your-username/pdf-quiz-generator](https://github.com)
+- **Issues**: Report bugs or request features
 
 ---
 
-Built with ❤️ by the QuizForge Team
+Build, share, and succeed with intelligent learning tools. Happy learning! 🚀

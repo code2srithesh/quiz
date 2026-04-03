@@ -48,7 +48,7 @@ export function LandingHero() {
 
             <div className="max-w-5xl mx-auto text-center">
                 <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-fade-in">
-                    QuizForge AI
+                    PDF Quiz Generator
                 </h1>
 
                 <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto animate-slide-in">
@@ -110,7 +110,7 @@ export function CTASection() {
                 <Card variant="glass" className="p-12 text-center">
                     <h2 className="text-4xl font-bold mb-4">Ready to Transform Your Learning?</h2>
                     <p className="text-lg text-gray-300 mb-8">
-                        Join thousands of students and professionals who use QuizForge AI to master new topics faster.
+                        Generate interactive quizzes from any PDF document in seconds with AI-powered intelligence.
                     </p>
                     <Link href="/sign-up">
                         <Button size="lg" fullWidth>

@@ -1,6 +1,6 @@
-# QuizForge AI - Deployment Guide
+# PDF Quiz Generator - Deployment Guide
 
-Complete guide for deploying QuizForge AI to production environments.
+Complete guide for deploying the PDF Quiz Generator to production environments.
 
 ## 🎯 Pre-Deployment Checklist
 
@@ -75,7 +75,7 @@ npm run db:push
 
 1. **Build Docker Image**
 ```bash
-docker build -t quizforge-ai:latest .
+docker build -t pdf-quiz-generator:latest .
 ```
 
 2. **Test Locally**
@@ -85,26 +85,26 @@ docker run -p 3000:3000 \
   -e OPENAI_API_KEY="..." \
   -e NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="..." \
   -e CLERK_SECRET_KEY="..." \
-  quizforge-ai:latest
+  pdf-quiz-generator:latest
 ```
 
 3. **Push to Container Registry**
 ```bash
 # Google Cloud
 gcloud auth configure-docker
-docker tag quizforge-ai:latest gcr.io/PROJECT_ID/quizforge-ai:latest
-docker push gcr.io/PROJECT_ID/quizforge-ai:latest
+docker tag pdf-quiz-generator:latest gcr.io/PROJECT_ID/pdf-quiz-generator:latest
+docker push gcr.io/PROJECT_ID/pdf-quiz-generator:latest
 
 # Or Docker Hub
-docker tag quizforge-ai:latest username/quizforge-ai:latest
+docker tag pdf-quiz-generator:latest username/pdf-quiz-generator:latest
 docker login
-docker push username/quizforge-ai:latest
+docker push username/pdf-quiz-generator:latest
 ```
 
 4. **Deploy to Cloud Run**
 ```bash
-gcloud run deploy quizforge-ai \
-  --image gcr.io/PROJECT_ID/quizforge-ai:latest \
+gcloud run deploy pdf-quiz-generator \
+  --image gcr.io/PROJECT_ID/pdf-quiz-generator:latest \
   --platform managed \
   --region us-central1 \
   --allow-unauthenticated \
@@ -114,7 +114,7 @@ gcloud run deploy quizforge-ai \
 5. **Custom Domain**
 ```bash
 gcloud run domain-mappings create \
-  --service=quizforge-ai \
+  --service=pdf-quiz-generator \
   --domain=yourdomain.com
 ```
 
@@ -179,9 +179,9 @@ psql --version
 3. **Clone Repository**
 ```bash
 cd /var/www
-sudo git clone <repo-url> quizforge-ai
-sudo chown -R $USER:$USER quizforge-ai
-cd quizforge-ai
+sudo git clone <repo-url> pdf-quiz-generator
+sudo chown -R $USER:$USER pdf-quiz-generator
+cd pdf-quiz-generator
 ```
 
 4. **Setup Environment**
@@ -200,14 +200,14 @@ npm run db:push
 6. **Setup PM2 (Process Manager)**
 ```bash
 npm install -g pm2
-pm2 start "npm start" --name quizforge
+pm2 start "npm start" --name quiz-gen
 pm2 startup
 pm2 save
 ```
 
 7. **Configure Nginx Reverse Proxy**
 ```nginx
-# /etc/nginx/sites-available/quizforge
+# /etc/nginx/sites-available/quiz-gen
 server {
     listen 80;
     server_name yourdomain.com www.yourdomain.com;
@@ -225,7 +225,7 @@ server {
 
 8. **Enable Site**
 ```bash
-sudo ln -s /etc/nginx/sites-available/quizforge /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/quiz-gen /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl restart nginx
 ```
@@ -280,14 +280,14 @@ sudo apt install postgresql postgresql-contrib
 
 # Create user and database
 sudo -u postgres psql
-CREATE USER quizforge WITH PASSWORD 'secure_password';
-CREATE DATABASE quizforge_prod OWNER quizforge;
-ALTER ROLE quizforge SET client_encoding TO 'utf8';
-GRANT ALL PRIVILEGES ON DATABASE quizforge_prod TO quizforge;
+CREATE USER app_user WITH PASSWORD 'secure_password';
+CREATE DATABASE quiz_prod OWNER app_user;
+ALTER ROLE app_user SET client_encoding TO 'utf8';
+GRANT ALL PRIVILEGES ON DATABASE quiz_prod TO app_user;
 \q
 
 # Backup configuration
-pg_dump -U quizforge quizforge_prod > backup.sql
+pg_dump -U app_user quiz_prod > backup.sql
 ```
 
 ---
@@ -468,7 +468,7 @@ deploy:
   script:
     - npm run build
     - npm run db:push
-    - pm2 restart quizforge
+    - pm2 restart quiz-gen
 ```
 
 ---
@@ -478,7 +478,7 @@ deploy:
 ### Database Backup Strategy
 ```bash
 # Daily automated backups
-0 2 * * * pg_dump -U quizforge quizforge_prod > /backups/daily_$(date +\%Y\%m\%d).sql
+0 2 * * * pg_dump -U app_user quiz_prod > /backups/daily_$(date +\%Y\%m\%d).sql
 
 # Weekly full backup
 0 3 * * 0 pg_basebackup -D /backups/weekly_$(date +\%Y\%m\%d) -Ft -z
@@ -490,8 +490,8 @@ deploy:
 ### Recovery Procedure
 ```bash
 # From backup
-createdb quizforge_prod_restore
-psql quizforge_prod_restore < backup.sql
+createdb quiz_prod_restore
+psql quiz_prod_restore < backup.sql
 
 # Point-in-time recovery (PITR)
 # Use pg_restore with specific timestamp
