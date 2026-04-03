@@ -38,7 +38,7 @@ export async function GET(
             return NextResponse.json({ error: 'Attempt not found' }, { status: 404 });
         }
 
-        const details = attempt.answers.map((answer) => ({
+        const details = attempt.answers.map((answer: typeof attempt.answers[0]) => ({
             id: answer.question.id,
             questionText: answer.question.questionText,
             userAnswer: answer.userAnswer,

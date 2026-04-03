@@ -38,7 +38,7 @@ export async function POST(
         // Calculate score
         let correctCount = 0;
         Object.entries(answers).forEach(([questionId, userAnswer]) => {
-            const question = quiz.questions.find((q) => q.id === questionId);
+            const question = quiz.questions.find((q: typeof quiz.questions[0]) => q.id === questionId);
             if (question) {
                 // Normalize answer comparison
                 const answerText =
@@ -71,7 +71,7 @@ export async function POST(
                         questionId,
                         userAnswer: typeof userAnswer === 'string' ? userAnswer : '',
                         isCorrect: (() => {
-                            const question = quiz.questions.find((q) => q.id === questionId);
+                            const question = quiz.questions.find((q: typeof quiz.questions[0]) => q.id === questionId);
                             if (!question) return false;
                             return (
                                 (userAnswer as string)

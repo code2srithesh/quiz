@@ -1,5 +1,5 @@
 // Utility functions for PDF processing and text extraction
-import * as pdfParse from 'pdf-parse';
+import pdfParse from 'pdf-parse';
 
 interface ExtractedPDFContent {
     text: string;

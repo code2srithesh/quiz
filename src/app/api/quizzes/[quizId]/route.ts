@@ -32,7 +32,7 @@ export async function GET(
             return NextResponse.json({ error: 'Quiz not found' }, { status: 404 });
         }
 
-        const questions = quiz.questions.map((q) => ({
+        const questions = quiz.questions.map((q: typeof quiz.questions[0]) => ({
             id: q.id,
             questionText: q.questionText,
             questionType: q.questionType,
