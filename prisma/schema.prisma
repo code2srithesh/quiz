@@ -1,0 +1,200 @@
+// This is your Prisma schema file.
+// Learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String     @id @default(cuid())
+  clerkId   String     @unique
+  email     String     @unique
+  name      String?
+  avatar    String?
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+
+  documents  Document[]
+  quizzes    Quiz[]
+  attempts   QuizAttempt[]
+  settings   UserSettings?
+
+  @@index([clerkId])
+  @@map("users")
+}
+
+model UserSettings {
+  id                    String  @id @default(cuid())
+  userId                String  @unique
+  user                  User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  theme                 String  @default("dark") // dark, light
+  animationsEnabled     Boolean @default(true)
+  defaultQuestionCount  Int     @default(10)
+  defaultDifficulty     String  @default("medium") // easy, medium, hard
+  defaultQuestionType   String  @default("mixed") // mcq, true_false, short_answer, mixed
+  
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  @@map("user_settings")
+}
+
+model Document {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  title       String
+  description String?
+  fileSize    Int
+  pageCount   Int?
+  uploadedAt  DateTime  @default(now())
+  
+  // PDF metadata
+  storagePath String    // local path or S3 URL
+  extractedText String? @db.Text
+  keywords    String[]  @default([])
+  mainTopics  String[]  @default([])
+  
+  quizzes     Quiz[]
+  
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([userId])
+  @@index([uploadedAt])
+  @@map("documents")
+}
+
+model Quiz {
+  id            String    @id @default(cuid())
+  userId        String
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  documentId    String
+  document      Document  @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  
+  title         String
+  description   String?
+  
+  // Configuration
+  questionCount Int
+  difficulty    String    // easy, medium, hard
+  questionType  String    // mcq, true_false, short_answer, mixed
+  
+  // Quiz content
+  questions     Question[] @relation("QuizQuestions")
+  
+  // Metadata
+  generatedAt   DateTime  @default(now())
+  isPublished   Boolean   @default(true)
+  
+  attempts      QuizAttempt[]
+  
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([userId])
+  @@index([documentId])
+  @@index([generatedAt])
+  @@map("quizzes")
+}
+
+model Question {
+  id            String    @id @default(cuid())
+  quizId        String
+  quiz          Quiz      @relation("QuizQuestions", fields: [quizId], references: [id], onDelete: Cascade)
+  
+  questionText  String    @db.Text
+  questionType  String    // mcq, true_false, short_answer
+  difficulty    String    // easy, medium, hard
+  
+  // For MCQ
+  options       Json?     // Array of {text, isCorrect}
+  
+  // Correct answer
+  correctAnswer String    @db.Text
+  explanation   String?   @db.Text
+  
+  // Source reference from PDF
+  sourceSection String?   // Optional page/section reference
+  
+  order         Int
+  
+  answers       QuizAnswer[]
+  
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([quizId])
+  @@map("questions")
+}
+
+model QuizAttempt {
+  id            String    @id @default(cuid())
+  userId        String
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  quizId        String
+  quiz          Quiz      @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  
+  score         Int       // 0-100
+  totalQuestions Int
+  correctAnswers Int
+  
+  // Time tracking
+  timeTaken     Int?      // in seconds
+  mode          String    @default("normal") // normal, exam, revision
+  
+  answers       QuizAnswer[]
+  
+  completedAt   DateTime  @default(now())
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([userId])
+  @@index([quizId])
+  @@index([completedAt])
+  @@map("quiz_attempts")
+}
+
+model QuizAnswer {
+  id            String    @id @default(cuid())
+  attemptId     String
+  attempt       QuizAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  
+  questionId    String
+  question      Question   @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  
+  userAnswer    String    @db.Text
+  isCorrect     Boolean
+  
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([attemptId])
+  @@index([questionId])
+  @@map("quiz_answers")
+}
+
+model AuditLog {
+  id            String    @id @default(cuid())
+  userId        String?
+  
+  action        String
+  resource      String
+  resourceId    String?
+  details       Json?
+  
+  createdAt     DateTime  @default(now())
+
+  @@index([userId])
+  @@index([createdAt])
+  @@map("audit_logs")
+}
