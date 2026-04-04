@@ -1,6 +1,10 @@
 # 🚀 PDF Quiz Generator - Next-Gen Learning Intelligence
 
-> **Transform Knowledge Instantly.** Convert any PDF document into beautifully crafted, AI-powered interactive quizzes in seconds. Where cutting-edge artificial intelligence meets elegant user interface design to revolutionize how we learn, teach, and assess understanding.
+> **Transform Knowledge Instantly.**
+> 
+> Convert any PDF document into beautifully crafted, AI-powered interactive quizzes in seconds.
+> 
+> Where cutting-edge artificial intelligence meets elegant user interface design to revolutionize how we learn, teach, and assess understanding.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
@@ -10,44 +14,490 @@
 
 ## 💫 What Makes This Revolutionary
 
-This isn't just another PDF quiz generator—it's an **intelligent learning companion** powered by advanced AI that understands your educational content at a profound level. When you upload a PDF, our system doesn't merely extract raw text; instead, it comprehends deep meaning, identifies critical concepts, understands contextual relationships, and generates thoughtfully crafted questions that test genuine understanding rather than superficial memorization. Every single question remains grounded in your source material, ensuring perfect alignment between what you teach and what gets assessed.
+This isn't just another PDF quiz generator.
 
-The entire user experience has been meticulously crafted using cutting-edge design principles and modern web technologies. From the moment you land on the platform through reviewing your detailed analytics, every interaction feels buttery smooth, highly responsive, and intuitively satisfying. The interface leverages glassmorphism effects combined with gradient accents to create a premium, futuristic aesthetic that transforms learning from feeling like work into feeling like an engaging, delightful experience.
+It's an **intelligent learning companion** powered by advanced AI that understands your educational content at a profound level.
 
-### 🧠 Intelligent PDF Processing & Understanding
-Your PDF isn't just read—it's deeply analyzed through advanced natural language processing techniques that extract meaningful content with contextual awareness. The system comprehends document structure, identifies key topics, understands hierarchical information relationships, and prepares comprehensive contextual data. This profound analysis ensures that generated questions reflect the actual importance and conceptual relationships within your document, producing questions that matter rather than random facts scattered throughout.
+When you upload a PDF, our system doesn't merely extract raw text.
+Instead, it comprehends deep meaning and identifies critical concepts.
+It understands contextual relationships.
+It generates thoughtfully crafted questions that test genuine understanding.
+Every single question remains grounded in your source material.
+Perfect alignment between what you teach and what gets assessed.
 
-### 🤖 Advanced AI Quiz Generation Engine
-Powered by OpenAI's sophisticated GPT-3.5 model, our question generation engine creates academically rigorous, contextually perfect questions tailored to your specifications. Whether you need multiple-choice questions with strategically placed distractors that force critical thinking, true/false statements that test nuanced understanding, short-answer prompts that encourage deep reflection, or a thoughtful mix—the AI adapts intelligently. Each question includes detailed explanations that help learners understand not just the correct answer, but the reasoning and concepts behind it.
+### Premium Experience Throughout
+
+The entire user experience has been meticulously crafted.
+Every interaction feels smooth, responsive, and satisfying.
+The interface uses glassmorphism effects combined with gradient accents.
+This creates a truly premium, futuristic aesthetic.
+Learning transforms from feeling like work into an engaging, delightful experience.
+
+### 🧠 Intelligent PDF Processing
+
+Your PDF isn't just read—it's deeply analyzed.
+Advanced natural language processing extracts meaningful content.
+The system comprehends document structure.
+It identifies key topics with precision.
+It understands hierarchical information relationships.
+This profound analysis ensures questions reflect actual importance.
+
+### 🤖 Advanced AI Quiz Generation
+
+Powered by OpenAI's sophisticated GPT-3.5 model.
+Creates academically rigorous, contextually perfect questions.
+Tailored to your exact specifications.
+
+Need multiple-choice questions with strategic distractors? ✓
+True/false statements that test nuanced understanding? ✓
+Short-answer prompts that encourage deep reflection? ✓
+A thoughtful mix of everything? ✓
+
+Each question includes detailed explanations.
+Learners understand not just the answer, but the reasoning behind it.
 
 ### 🎮 Beautiful Interactive Quiz Experience
-Taking a quiz feels effortless and engaging. The responsive interface adapts seamlessly across all devices—desktop computers, tablets, and mobile phones. Clear progress indicators show your exact position in the quiz journey. Intuitive question navigation lets you skip ahead or return to previous questions at any time. The visual design combines modern glassmorphism effects with a dark, futuristic aesthetic to create an environment that's simultaneously professional and genuinely enjoyable. Every animation serves a purpose—smoothly guiding your attention and making every interaction feel polished.
 
-### 📊 Comprehensive Learning Analytics & Insights
-After completing quizzes, dive into detailed analytics that reveal revealing patterns in your learning journey. Beautiful visualizations show your score progression over time, performance breakdowns across difficulty levels, and topic-specific mastery indicators. These analytics aren't vanity metrics—they're actionable insights designed to help you understand where you excel and where you need focused practice. The dashboard makes pattern identification incredibly easy, helping you quickly spot knowledge gaps and track your continuous improvement trajectory.
+Taking a quiz feels effortless and engaging.
+The responsive interface adapts seamlessly across all devices.
+Desktop computers. Tablets. Mobile phones.
+Clear progress indicators show your exact position.
+Intuitive navigation lets you skip ahead anytime.
+Return to previous questions whenever you want.
 
-### 💾 Smart Quiz History & Comprehensive Progression Tracking
-Every quiz attempt is preserved with complete metadata for future reference. Instantly access your entire quiz history, efficiently filter by subject or date, review detailed performance metrics side-by-side, and revisit questions you found challenging. This historical data becomes invaluable for exam preparation, allowing you to track your improvement over time and identify recurring problem areas deserving additional study focus.
+The visual design combines glassmorphism effects with dark aesthetics.
+Simultaneously professional and genuinely enjoyable.
+Every animation serves a real purpose.
+Your attention is guided smoothly.
 
-### ⚙️ Granular Customization & Personal Preferences
-Adapt the platform to your unique learning style with precision controls. Choose the exact number of questions you want (5, 10, 15, or 20 depending on your study time availability), select your preferred difficulty level (Easy for refresher sessions, Medium for standard learning, Hard for mastery testing, or Mixed for comprehensive challenge), pick question types (Multiple-choice offering strategic distractors, True/False for rapid recall, Short Answer for critical thinking, or Mixed for varied challenge), and customize visual preferences to match your aesthetic sensibilities. All settings persist across sessions, learning from your preferences to create a uniquely tailored experience that matches your individual learning speed and style.
+### 📊 Comprehensive Learning Analytics
+
+After completing quizzes, dive into detailed analytics.
+See beautiful visualizations of your progress.
+Your score progression over time.
+Performance breakdowns across difficulty levels.
+Topic-specific mastery indicators.
+
+These analytics are actionable insights—not vanity metrics.
+They help you understand where you excel.
+They show you where you need focused practice.
+The dashboard makes pattern identification incredibly easy.
+
+### 💾 Smart Quiz History & Tracking
+
+Every quiz attempt is preserved with complete metadata.
+Instantly access your entire quiz history.
+Efficiently filter by subject or date.
+Review detailed performance metrics side-by-side.
+Revisit questions you found challenging.
+
+This historical data becomes invaluable for exam preparation.
+Track your improvement over time.
+Identify recurring problem areas deserving more attention.
+
+### ⚙️ Granular Customization
+
+Adapt the platform to your unique learning style.
+
+**Choose the number of questions:**
+- 5 for a quick check
+- 10 for standard assessment
+- 15 for comprehensive testing
+- 20 for in-depth analysis
+
+**Select difficulty level:**
+- Easy for refresher sessions
+- Medium for standard learning
+- Hard for mastery testing
+- Mixed for varied challenge
+
+**Pick question types:**
+- MCQ with strategic distractors
+- True/False for rapid recall
+- Short Answer for critical thinking
+- Mixed for complete variety
+
+All settings persist across sessions.
+The platform learns from your preferences.
+Creates a uniquely tailored experience.
 
 ---
 
 ## 🛠️ Technology Architecture - Built With Excellence
 
-### Frontend Layer - Exceptional User Experience
-The frontend is engineered using **Next.js 14** with the modern App Router architecture, enabling server-side rendering for optimal performance and SEO benefits. **TypeScript** ensures comprehensive type safety throughout the entire codebase, catching errors before they impact production. **Tailwind CSS** handles all styling with a custom dark theme featuring sophisticated glassmorphism effects and gradient accents. **Framer Motion** adds purposeful animations that enhance usability without being distracting or performance-impacting. **React Hook Form** manages complex form states with minimal overhead. **Recharts** renders beautiful interactive data visualizations showing performance trends and analytics. **Zustand** provides lightweight yet powerful state management for smooth quiz flow.
+### Frontend Layer
 
-### Backend Layer - Intelligent Processing Architecture
-The backend leverages **Next.js API Routes** running on a **Node.js** runtime, eliminating infrastructure complexity. **Prisma ORM** provides type-safe database operations with an elegant query builder and excellent developer experience. **PostgreSQL** serves as the robust, reliable database backbone, chosen for its ACID compliance and excellent support for complex analytical queries. **OpenAI API** integration brings sophisticated AI capabilities for intelligent question generation. **Clerk** handles authentication and user management with industry-standard security practices.
+**Next.js 14** with modern App Router architecture.
+Provides server-side rendering for optimal performance and SEO.
 
-### Infrastructure & Deployment Philosophy
-The entire application is containerized with **Docker** for consistent deployment across any environment. **Docker Compose** orchestrates local development with PostgreSQL and management tools. The modular architecture allows deployment to **Vercel**, **AWS**, **Google Cloud**, or any Node.js compatible hosting platform depending on your specific scale requirements and preferences.
+**TypeScript** ensures type safety throughout.
+Catches errors before production.
+
+**Tailwind CSS** with custom dark theme.
+Features sophisticated glassmorphism effects.
+
+**Framer Motion** adds purposeful animations.
+Enhances usability without distraction.
+
+**React Hook Form** manages complex form states efficiently.
+**Recharts** renders beautiful interactive visualizations.
+**Zustand** provides lightweight yet powerful state management.
+
+### Backend Layer
+
+**Next.js API Routes** running on Node.js runtime.
+Eliminates infrastructure complexity.
+
+**Prisma ORM** provides type-safe database operations.
+Elegant query builder with excellent developer experience.
+
+**PostgreSQL** serves as the database backbone.
+Chosen for ACID compliance.
+Excellent support for complex queries.
+
+**OpenAI API** integration brings AI capabilities.
+**Clerk** handles authentication with industry standards.
+
+### Infrastructure & Deployment
+
+The entire application is containerized with **Docker**.
+Ensures consistent deployment across environments.
+**Docker Compose** orchestrates local development seamlessly.
 
 ---
 
 ## 🚀 Getting Started - Your Journey Begins Here
+
+### Prerequisites Your System Needs
+
+✓ **Node.js version 18 or higher** (modern JavaScript runtime)
+✓ **npm version 9 or higher** (comes with Node.js)
+✓ **PostgreSQL version 14 or higher** (or use Docker)
+✓ **Git for version control**
+✓ **VS Code** (recommended)
+
+### Required API Credentials
+
+**Clerk Authentication:**
+- Navigate to [Clerk Dashboard](https://dashboard.clerk.com)
+- Create a free account
+- Set up a new application
+- Copy your API keys
+- Need both `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY`
+- Keep the secret key absolutely private
+
+**OpenAI API:**
+- Visit [OpenAI Platform](https://platform.openai.com)
+- Create an account
+- Verify your email
+- Navigate to API Keys section
+- Generate a new secret key
+- Add credits to your account (pay-as-you-go)
+- Store `OPENAI_API_KEY` securely
+
+### Database Configuration
+
+**Option A - Local PostgreSQL:**
+1. Install PostgreSQL
+2. Create database: `createdb quiz_generator_dev`
+3. Update `.env.local` with connection string
+4. Perfect for development
+
+**Option B - Docker (Recommended):**
+1. Install Docker
+2. Use included `docker-compose.yml`
+3. Run `docker-compose up`
+4. PostgreSQL launches automatically
+5. Clean and simple
+
+### Installation & Setup
+
+```bash
+# Clone the repository
+git clone <your-repo-url>
+cd pdf-quiz-generator
+
+# Install dependencies
+npm install
+
+# Configure environment
+cp .env.example .env.local
+# Edit .env.local with your API keys
+
+# Generate Prisma client
+npm run db:generate
+
+# Create database tables
+npm run db:push
+
+# Optional: Add sample data
+npm run db:seed
+
+# Start development server
+npm run dev
+```
+
+Your app is now running at `http://localhost:3000`.
+
+---
+
+## 📖 How to Use - Your Step-by-Step Journey
+
+### Step 1: Access the Platform
+- Open your web browser
+- Navigate to `http://localhost:3000`
+- See the futuristic landing page
+- Click "Get Started"
+- Follow Clerk authentication
+
+### Step 2: Upload Your PDF
+- Navigate to "Upload PDF" section
+- Drag and drop a file or browse
+- System validates (PDF only, under 50MB)
+- Enter optional description
+- File is securely stored
+
+### Step 3: Configure Quiz Parameters
+- Select number of questions (5, 10, 15, or 20)
+- Choose difficulty level (Easy, Medium, Hard, Mixed)
+- Pick question types (MCQ, True/False, Short Answer, Mixed)
+- More questions = deeper coverage
+- These choices guide AI generation
+
+### Step 4: Generate Your Quiz
+- Click "Generate Quiz" button
+- Watch the AI analyze your PDF
+- Process takes 10-30 seconds typically
+- AI extracts content with context
+- Identifies key concepts
+- Creates contextually appropriate questions
+- Validates answers
+- Formats beautifully
+- Preview questions before starting
+
+### Step 5: Take the Quiz
+- Answer questions through intuitive interface
+- Progress indicator shows your position
+- MCQ: select from all options
+- True/False: choose binary answer
+- Short Answer: type your response
+- Navigate freely anytime
+- Skip or return to previous questions
+- Review before final submission
+
+### Step 6: Review Results
+- See score prominently displayed
+- Performance level indicator (Excellent, Good, Fair, Needs Improvement)
+- Detailed analytics by difficulty
+- For each question: your answer, correct answer, explanation
+- System identifies patterns automatically
+
+### Step 7: Track Progress Over Time
+- All attempts saved with metadata
+- Return anytime to review past quizzes
+- Compare performance across attempts
+- Identify topics needing more work
+- Celebrate your improvement
+- Dashboard visualizes growth beautifully
+
+---
+
+## 🎨 Design Philosophy
+
+**Glassmorphism Aesthetic:**
+- Transparency effects with backdrop blur
+- Creates striking visual depth
+- No visual clutter
+
+**Dark Color Scheme:**
+- Reduces eye strain during long study
+- Feels modern and professional
+
+**Gradient Accents:**
+- Purple to cyan gradients
+- Creates visual hierarchy
+- Guides attention
+
+**Smooth Animations:**
+- 300-500ms durations
+- Guides user attention
+- Genuinely satisfying feedback
+
+**Responsive Design:**
+- Pixel-perfect on all devices
+- Never cramped or stretched
+- Works perfectly on phones, tablets, desktops
+
+---
+
+## 🔧 Customization Guide
+
+### Personalize Colors
+- Edit `tailwind.config.js`
+- Change primary color from purple
+- Modify accent color to match your brand
+- Update success, error, warning states
+- Changes cascade everywhere instantly
+
+### Adjust Quiz Parameters
+- In `src/utils/constants.ts`
+- Modify question counts
+- Change difficulty levels
+- Add new question types
+- One modification updates all references
+
+### Customize AI Generation
+- Edit `src/utils/quiz-generator.ts`
+- Modify system prompt for question tone
+- Adjust difficulty or style
+- Switch from GPT-3.5 to GPT-4 (higher cost)
+
+### Extend Database
+- Edit `prisma/schema.prisma`
+- Add new fields or models
+- Run `npm run db:push` to apply
+- Consider: user notes, categories, achievements
+
+---
+
+## 🚢 Deployment - Take It Live
+
+### Vercel (Fastest, Recommended)
+- Optimized for Next.js
+- Connect GitHub repository
+- Configure environment variables
+- Deploy with zero configuration
+- Live globally in seconds
+- Automatic deployments on push
+
+### Docker + Cloud Run (Scalable)
+```bash
+docker build -t pdf-quiz-generator .
+```
+- Push to container registry
+- Deploy to Cloud Run
+- Automatically scales with demand
+- Pay only for usage
+
+### Railway/Similar Platforms (Balanced)
+- Connect GitHub repository
+- Configure environment variables
+- Deploy automatically
+- Auto-detects Next.js
+- Balance between simplicity and control
+
+### Self-Hosted VPS (Maximum Control)
+- Clone on Linux server
+- Configure environment variables
+- Run `npm install && npm run build && npm start`
+- Use Nginx as reverse proxy
+- PM2 for process management
+- Certbot for SSL
+- Full control but requires more knowledge
+
+---
+
+## 📊 Project Metrics
+
+| Metric | Value |
+|--------|-------|
+| Lines of Code | 4,000+ |
+| React Components | 10+ |
+| API Endpoints | 8 |
+| Database Models | 8 |
+| Pages & Routes | 12+ |
+| Configuration Files | 6 |
+| TypeScript Coverage | 100% |
+| Build Time | < 60 seconds |
+| First Load JS | ~116 KB |
+| Lighthouse Score | 95+ |
+
+---
+
+## 🛡️ Security & Best Practices
+
+**API Key Management:**
+- Stored as environment variables
+- Never hardcoded
+- Never exposed in version control
+
+**Authentication:**
+- Clerk handles OAuth protocols
+- Industry-standard security
+
+**Database Security:**
+- Credentials encrypted
+- Never exposed to frontend
+- HTTPS enforced in production
+
+**Data Privacy:**
+- User data belongs to users
+- No tracking, selling, or unnecessary collection
+- Row-level security ensures data isolation
+
+---
+
+## 📚 Additional Resources
+
+**Documentation Files:**
+- **SETUP.md** - Step-by-step installation
+- **ARCHITECTURE.md** - Deep technical dive
+- **DEPLOYMENT.md** - Production procedures
+- **EXAMPLES.md** - Code examples and API usage
+
+**External Resources:**
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Prisma Documentation](https://prisma.io/docs)
+- [Clerk Documentation](https://clerk.com/docs)
+- [OpenAI API Guide](https://platform.openai.com/docs)
+
+**Community:**
+- Open issues on GitHub
+- Start discussions
+- Check existing issues first
+
+---
+
+## 📝 License & Usage
+
+This project is **open source and completely free to use**.
+
+You're welcome to:
+- Clone it
+- Modify it
+- Deploy commercially
+- Build upon it
+- Adapt for your needs
+
+If you do something amazing, share your story!
+
+---
+
+## 🎯 Roadmap - Future Vision
+
+**Advanced Features Coming:**
+- Batch PDF processing
+- Collaborative learning
+- Quiz sharing via unique links
+- Comprehensive third-party API
+- iOS and Android apps
+- Multiple LLM options (GPT-4, Claude, Llama)
+- Gamification (badges, leaderboards)
+- Bulk export functionality
+- AI tutoring for weak topics
+- Spaced repetition scheduling
+- Video-based explanations
+- Voice input/output support
+
+---
+
+**Transform Knowledge. Build Intelligence. Shape the Future of Learning.** ✨
+
+Built with passion using Next.js, TypeScript, and cutting-edge web technologies.
+
+---
+
+*Last updated: April 2026 | Version 1.0.0 | Open Source | Maintained with ❤️*
 
 ### Prerequisites Your System Needs
 Before diving into development, ensure your system has the essential tools properly installed and configured. You'll need **Node.js version 18 or higher** (the modern JavaScript runtime that powers modern web applications), **npm version 9 or higher** (the package manager that comes bundled with Node.js), **PostgreSQL version 14 or higher** (the reliable relational database—you can use Docker for containerized setup if you prefer avoiding local installation), and **Git for version control**. A modern code editor like **VS Code** with extensions for TypeScript and ESLint is recommended for the absolute best development experience.
@@ -97,130 +547,4 @@ npm run dev
 
 Your application is now running at `http://localhost:3000`. The dev server automatically reloads whenever you modify files.
 
----
 
-## 📖 How to Use - Your Step-by-Step Quiz Journey
-
-### Step 1: Access the Platform
-Open your web browser and navigate to `http://localhost:3000` to see the futuristic landing page with your first impressions. Click the "Get Started" button or navigate directly to the dashboard. You'll be prompted to authenticate through Clerk—follow the straightforward authentication flow.
-
-### Step 2: Upload Your Knowledge Source
-Navigate to the "Upload PDF" section using the dashboard navigation. Here you can either drag and drop a PDF file directly onto the designated dropzone area, or click the button to browse and select a file from your computer. The system validates your file (confirming it's a valid PDF and under 50MB). Enter an optional description to help you categorize and remember your content later. Your file is securely stored and intelligently processed.
-
-### Step 3: Configure Quiz Parameters Precisely
-Once uploaded, you reach the quiz generator customization interface where you have complete control. Select the number of questions your quiz should contain (5 for a quick check, 10 for standard assessment, 15 for comprehensive, or 20 for in-depth testing)—more questions mean deeper coverage but require longer completion time. Choose the difficulty level that matches your learning stage (Easy for refresher/review, Medium for standard learning, Hard for mastery testing, or Mixed for varied challenge). Pick question types (MCQ with multiple choices for strategic distractors, True/False for faster testing, Short Answer for critical thinking, or Mixed for complete variety). These choices directly influence how the AI shapes its question generation.
-
-### Step 4: Generate Your Quiz with AI
-Click the "Generate Quiz" button and watch as our sophisticated AI analyzes your PDF and creates questions tailored to your exact specifications. The process typically takes 10-30 seconds depending on PDF complexity and content density. The AI extracts relevant content with context, identifies key concepts and relationships, creates contextually appropriate and challenging questions, validates answer accuracy, and formats everything beautifully. You can preview all generated questions before starting the quiz.
-
-### Step 5: Take the Quiz & Test Your Knowledge
-Begin answering questions through an intuitive interface. The progress indicator shows your exact position. For multiple-choice questions, you see all options and click to select your answer. For true/false, the choice is binary and quick. For short answer, type your response thoughtfully. You can navigate freely—skip questions and return later, or go sequentially through the quiz. When complete, review your responses before final submission.
-
-### Step 6: Review Results & Understand Performance
-After submission, see your score prominently displayed with a performance level indicator (Excellent, Good, Fair, or Needs Improvement). Detailed analytics show your performance across difficulty levels with beautiful visualizations. For each question, see what you answered, the correct answer, and comprehensive explanations. The system identifies patterns in your performance to guide future study focus intelligently.
-
-### Step 7: Track Progress Over Time
-All quiz attempts are saved with complete metadata in your Quiz History. Return anytime to review past quizzes, compare performance across multiple attempts, identify topics deserving more work, and celebrate your improvement trajectory. The analytics dashboard visualizes your growth beautifully, making your learning progress crystal clear.
-
----
-
-## 🎨 Design Philosophy - Why It Feels Genuinely Premium
-
-Every single visual and interaction decision serves a purposeful function in the user experience. The **glassmorphism aesthetic** combines transparency effects with sophisticated backdrop blur, creating striking visual depth without introducing visual clutter. The **dark color scheme** significantly reduces eye strain during extended study sessions while feeling modern and professional. **Gradient accents** (purple to cyan) create visual hierarchy and guide attention toward important elements. **Smooth animations** (300-500ms durations) guide user attention and provide genuinely satisfying feedback. **Responsive design** ensures the experience is pixel-perfect on phones, tablets, and desktops—never feeling cramped or awkwardly stretched.
-
----
-
-## 🔧 Customization Guide - Make It Completely Yours
-
-### Personalize Colors & Visual Theme
-Edit `tailwind.config.js` to change the primary color from purple to your preferred brand color. Modify the accent color, success states, error states, and warning states to match your desired aesthetic. The color palette cascades throughout the entire application automatically—one change propagates everywhere instantly.
-
-### Adjust Quiz Parameters & Behavior
-In `src/utils/constants.ts`, modify question count options, difficulty levels, question types, or add new parameters entirely. These constants propagate throughout the entire application—one modification updates every reference simultaneously.
-
-### Customize AI Question Generation
-The quiz generation prompt lives in `src/utils/quiz-generator.ts`. Modify the system prompt to adjust question tone, difficulty, or style. Change the model from GPT-3.5 to GPT-4 for even more sophisticated generation (with corresponding higher costs).
-
-### Extend Database Models
-Edit `prisma/schema.prisma` to add new fields, models, or relationships. Run `npm run db:push` to apply changes. Consider adding user notes, quiz categories, topics, achievement badges, or advanced features like spaced repetition scheduling.
-
----
-
-## 🚢 Deployment - Take It Live to the World
-
-### Vercel (Fastest, Highly Recommended)
-Vercel is specifically optimized for Next.js applications. Connect your GitHub repository, select the `pdf-quiz-generator` project, configure environment variables directly in the dashboard, and deploy with zero configuration needed. Your app is live globally in seconds with automatic deployments on every push to main.
-
-### Docker + Cloud Run (Scalable & Cost-Effective)
-Build your Docker image: `docker build -t pdf-quiz-generator .`. Push to a container registry (Google Container Registry, Docker Hub, or others). Deploy to Google Cloud Run or similar services. This approach automatically scales with demand and you only pay for actual usage—perfect for variable traffic patterns.
-
-### Railway or Similar Platforms (Balanced Approach)
-Connect your GitHub repository, configure environment variables in the platform dashboard, and deploy. The platform automatically detects Next.js and configures build settings intelligently. Perfect balance between simplicity and control.
-
-### Self-Hosted VPS (Maximum Control)
-Clone repository on Linux server, configure environment variables, run `npm install && npm run build && npm start`. Use Nginx as reverse proxy, PM2 for process management, certbot for SSL certificates. Full control over infrastructure and data location, but requires more operational knowledge.
-
----
-
-## 📊 Project Metrics & Performance Stats
-
-| Metric | Value |
-|--------|-------|
-| Total Lines of Code | 4,000+ |
-| React Components | 10+ |
-| API Endpoints | 8 |
-| Database Models | 8 |
-| Pages & Routes | 12+ |
-| Configuration Files | 6 |
-| TypeScript Coverage | 100% |
-| Build Time | < 60 seconds |
-| First Load JS Size | ~116 KB |
-| Lighthouse Performance | 95+ |
-
----
-
-## 🛡️ Security & Best Practices Implementation
-
-Your data security is absolutely paramount throughout this system. All API keys are stored exclusively as environment variables—never hardcoded or exposed anywhere in version control. Clerk handles authentication using OAuth protocols with industry-standard security practices. Database credentials are encrypted and never exposed to the frontend. The application enforces HTTPS in production (automatically handled by deployment platforms). User data belongs entirely to users—no tracking, selling, or unnecessary collection. Row-level security ensures users access only their own data through database queries combined with API middleware validation.
-
----
-
-## 📚 Additional Resources & Documentation
-
-**Comprehensive Documentation:**
-- **SETUP.md** - Detailed step-by-step installation and configuration
-- **ARCHITECTURE.md** - Technical deep dive into system design decisions
-- **DEPLOYMENT.md** - Production deployment procedures and best practices
-- **EXAMPLES.md** - Real-world code examples and API usage patterns
-
-**External Learning Resources:**
-- [Next.js Documentation](https://nextjs.org/docs) - Master Next.js in depth
-- [Prisma Documentation](https://prisma.io/docs) - Learn database management
-- [Clerk Documentation](https://clerk.com/docs) - Understand authentication systems
-- [OpenAI API Guide](https://platform.openai.com/docs) - Explore AI integration possibilities
-
-**Community Engagement:**
-Open an issue on GitHub for bugs or feature requests. Start discussions for questions. Check existing issues before posting—your question might already have answers documented.
-
----
-
-## 📝 License & Usage Philosophy
-
-This project is open source and completely free to use. You're welcome to clone it, modify it, deploy it commercially, build upon it, and adapt it for your needs. If you do something amazing with it, consider sharing your story—we'd love to hear about how you're using this technology to transform education and learning experiences.
-
----
-
-## 🎯 Roadmap - Future Vision & Phase 2
-
-**Advanced Features Coming:**
-Advanced features currently in development include batch PDF processing to generate multiple quizzes simultaneously, collaborative learning where students review peer responses, quiz sharing through unique links, comprehensive API for third-party integrations, native mobile applications for iOS and Android, advanced AI with multiple LLM options (GPT-4, Claude, Llama), engaging gamification with achievement badges and leaderboards, bulk export functionality for institutional use, and AI tutoring for weak topics.
-
----
-
-**Transform Knowledge. Build Intelligence. Shape the Future of Learning.** ✨
-
-Built with passion using Next.js, TypeScript, and cutting-edge web technologies. 
-
----
-
-*Last updated: April 2026 | Version 1.0.0 | Open Source | Maintained with ❤️*
